@@ -43,6 +43,15 @@ export default function Layout({ children }) {
       >
         About
       </Link>
+      <Link
+        to={`/my-files/`}
+        css={css`
+          float: right;
+          padding-right: 1em;
+        `}
+      >
+        My Files
+      </Link>
       {children}
     </div>
   )
